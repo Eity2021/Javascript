@@ -104,3 +104,5 @@ var daylist = ["Sunday","Monday","Tuesday","wednesday","Thursday","Friday","Satu
 console.log("Today is :" + daylist[day] + +".");
 
 var hours = today.getHours();
+var mintues = today.getMinutes();
+var second = today.getSeconds();

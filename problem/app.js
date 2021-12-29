@@ -33,6 +33,9 @@
 
 // console.log(array);
 
+
+
+
 // problem 7 Create a function that filters out negative numbers
 
 // var filter = [3,5,7,2,-5,3,57,234,-56,343,-546];
@@ -42,6 +45,7 @@
 //     return(x >-1);
 // });
 // console.log(filtering);
+
 
 // problem 7 Create a function that filters out negative numbers
 
@@ -131,24 +135,67 @@
 // }
 
 
-function getPositives(ar)
-{
-    var ar2 = [];
+// problem 12  Create a function that receives an array of numbers and returns an array containing only the positive numbers
+
+
+// var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+// function getPositives(ar)
+// {
+//     var ar2 = [];
     
-    for(var i = 0; i < ar.length; i++)
-    {
-        var el = ar[i];
+//     for(var i = 0; i < ar.length; i++)
+//     {
+//         var el = ar[i];
         
-        if (el >= 0)
-        {
-            ar2.push(el);
-        }
-    }
+//         if (el >= 0)
+//         {
+//             ar2.push(el);
+//         }
+//     }
     
-    return ar2;
+//     return ar2;
+// }
+
+
+// var ar2 = getPositives(ar);
+
+// console.log(ar2);
+
+// problem 13  Find the maximum number in an array of numbers
+
+// var maxNumber = [9,0,-4,343,567,232,67,343,768,343]
+
+// function getmaxNumber(maxNumber){
+
+//   var  Maxnumber = maxNumber[0];
+
+//     for( let i = 0; i < maxNumber.length;i++){
+
+//         if(maxNumber[i]> Maxnumber){
+
+//             Maxnumber = maxNumber[i];
+//         }
+
+//     }
+
+//   return Maxnumber;
+
+// }
+// var Maxnumber = getmaxNumber(maxNumber)
+// console.log("Max :" ,Maxnumber);
+
+
+
+// problem 14  Print the first 10 Fibonacci numbers without recursion
+
+f0 = 0;
+f1 = 1;
+
+for( let i=1;i<10;i++){
+    var fi = f0 + f1;
+    
+    f0 = f1;
+    f1 = fi;
 }
 
-var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
-var ar2 = getPositives(ar);
-
-console.log(ar2);
+console.log(fi)

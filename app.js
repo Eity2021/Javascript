@@ -98,11 +98,35 @@
 // problem 11  Display the current day and time in a specific format
 
 
-var today = new Date();
-var day = today.getDay();
-var daylist = ["Sunday","Monday","Tuesday","wednesday","Thursday","Friday","Saturday"];
-console.log("Today is :" + daylist[day] + +".");
+// var today = new Date();
+// var day = today.getDay();
+// var daylist = ["Sunday","Monday","Tuesday","wednesday","Thursday","Friday","Saturday"];
+// console.log("Today is :" + daylist[day] + +".");
 
-var hours = today.getHours();
-var mintues = today.getMinutes();
-var second = today.getSeconds();
+// var hours = today.getHours();
+// var mintues = today.getMinutes();
+// var second = today.getSeconds();
+
+// console.log(hours);
+// console.log(mintues);
+// console.log(second);
+
+
+// problem 12
+
+
+// for(let x=0;x<=100;x++){
+
+//     if(x % 2 == 0){
+//         console.log(x);
+//     }
+// }
+
+var number = parseInt(prompt("Enter your Intiger number"));
+for(let i=0;i<=10;i++){
+
+   result = number * i;
+
+    console.log( `${number} * ${i} = ${result}`);
+}
+

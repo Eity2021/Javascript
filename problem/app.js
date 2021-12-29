@@ -122,11 +122,33 @@
 //     }
 // }
 
-var number = parseInt(prompt("Enter your Intiger number"));
-for(let i=0;i<=10;i++){
+// var number = parseInt(prompt("Enter your Intiger number"));
+// for(let i=0;i<=10;i++){
 
-   result = number * i;
+//    result = number * i;
 
-    console.log( `${number} * ${i} = ${result}`);
+//     console.log( `${number} * ${i} = ${result}`);
+// }
+
+
+function getPositives(ar)
+{
+    var ar2 = [];
+    
+    for(var i = 0; i < ar.length; i++)
+    {
+        var el = ar[i];
+        
+        if (el >= 0)
+        {
+            ar2.push(el);
+        }
+    }
+    
+    return ar2;
 }
 
+var ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+var ar2 = getPositives(ar);
+
+console.log(ar2);

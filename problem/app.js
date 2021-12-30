@@ -188,14 +188,37 @@
 
 // problem 14  Print the first 10 Fibonacci numbers without recursion
 
-f0 = 0;
-f1 = 1;
+// f0 = 0;
+// f1 = 1;
 
-for( let i=1;i<10;i++){
-    var fi = f0 + f1;
+// for( let i=1;i<10;i++){
+//     var fi = f0 + f1;
     
-    f0 = f1;
-    f1 = fi;
-}
+//     f0 = f1;
+//     f1 = fi;
+// }
 
-console.log(fi)
+// console.log(fi)
+
+
+// function plus(a,b,c,d){
+//     return (a * b) - (b+c) + (c - d);
+// }
+
+// console.log(plus(20,50,60,40));
+
+
+// function plus(a,b){
+//     return a+b;
+// }
+
+// var adding = plus(10,5);
+//     console.log(adding);
+
+
+// let str = "apply,mango,lichi,jackfruit";
+
+// console.log(str.slice(5,17));
+
+
+
